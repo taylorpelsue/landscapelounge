@@ -97,6 +97,7 @@ li.dropdown {
     font-family: helvetica;
     font-size: 12px;
     text-align: center;
+    position: fixed;
 }
 body {
     margin-bottom: 5%;
