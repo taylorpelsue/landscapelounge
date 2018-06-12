@@ -1,23 +1,29 @@
 
    @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+   @import url('https://fonts.googleapis.com/css?family=Rokkitt');
 
 [class*="col-"] {
     margin-top: 2%;
 }
 .navbar{
-    background: linear-gradient(white, gray);
+  
     width: 100%;
     padding: 0;
     height: 60px;
     position: fixed;
     top: 0;
     z-index: 1000;
+    outline: none;
+    background-image: linear-gradient(#484848 0%, #484848 50%, #383838 50%, #383838 100%);
+    text-shadow: 1px 0 black;
+    
 }
+  
 .mower {
     margin-bottom: 5%;
 }
 #logo {
-    margin-left: 10%;
+    margin-left: 27%;
     padding-left: 5%;
     padding: 0%;
     width: 40%;
@@ -30,17 +36,20 @@
 }
 li a, .navlinks {
     display: inline-block;
-    color: black;
+    color: rgb(207, 207, 207);
     text-align: center;
     padding: 14px 12px;
     text-decoration: none;
-    font-size: 110%;
+    font-size: 135%;
     margin: 2%;
+    margin-right: 15%;
     font-weight: 500;
+    font-family: Rokkitt;
 }
 li a:hover, .dropdown:hover .dropbtn {
     background-color: lightslategray;
 }
+
 
 li.dropdown {
     display: inline-block;
@@ -69,7 +78,8 @@ li.dropdown {
     display: block;
 }
 .navbar-expand-lg .navbar-collapse {
-    margin-right: 5%;
+    margin-left: 20%;
+    max-width: 500px;
 }
 
 .d-block w-100 {
@@ -106,30 +116,35 @@ li.dropdown {
     color: black;
     font-weight: 350;
     text-decoration: underline;
+    font-family: Rokkitt;
 }
 #topleft{
     background-image: url("../images/topleft3.jpg");
     object-fit: cover;
     background-size: 538px;
-    font-size: 18px;
+    font-size: 20px;
     color: black;
-    font-weight: 450;
+    font-weight: 475;
+    font-family: Rokkitt;
 }
 #botleft{
     background-image: url("../images/botleft3.jpg");
     object-fit: cover;
     background-size: 538px;
-    font-size: 18px;
+    font-size: 20px;
     color: black;
-    font-weight: 450;
+    font-weight: 475;
+    font-family: Rokkitt;
 }
 #right{
     background-image: url("../images/right3.jpg");
     object-fit: cover;
     background-size: 538px;
-    font-size: 18px;
+    font-size: 20px;
     color: black;
-    font-weight: 450;
+    font-weight: 475;
+    font-family: Rokkitt;
+
 }
 #brett{
     display: block;
@@ -143,12 +158,14 @@ li.dropdown {
     padding-top: 1%;
     padding-bottom: 1%;
     bottom: 0;
-    background: linear-gradient(white, gray);
-    color: black;
+    background-image: linear-gradient(#484848 0%, #484848 50%);
+    color: white;
     font-family: helvetica;
-    font-size: 12px;
+    font-size: 18px;
     text-align: center;
     position: static;
+    font-family: Rokkitt;
+    text-shadow: 1px 0 black;
 }
 body {
     margin-bottom: 5%;
@@ -159,5 +176,6 @@ body {
     background-image: url("../images/background.png");
     padding-top: 70px;
     background-attachment: fixed;
+    
 }
  
