@@ -89,9 +89,12 @@ li.dropdown {
 .carousel {
     overflow: auto;
   }
+  
 #slideshow {
     align-content: center;
+    
 }
+
 #h5 {
     font-family: 'Permanent Marker', cursive;
     color: black;
@@ -155,5 +158,6 @@ body {
     color: #fff;
     background-image: url("../images/background.png");
     padding-top: 70px;
+    background-attachment: fixed;
 }
  
