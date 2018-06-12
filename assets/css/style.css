@@ -23,10 +23,10 @@
     margin-bottom: 5%;
 }
 #logo {
-    margin-left: 27%;
+    margin-left: 6em;
     padding-left: 5%;
     padding: 0%;
-    width: 40%;
+    width: 32%;
 }
 
 .card {
@@ -42,7 +42,7 @@ li a, .navlinks {
     text-decoration: none;
     font-size: 135%;
     margin: 2%;
-    /* margin-right: 15%; */
+    /* margin-right: 50%; */
     font-weight: 500;
     font-family: Rokkitt;
 }
@@ -76,7 +76,7 @@ li.dropdown {
     display: block;
 }
 .navbar-expand-lg .navbar-collapse {
-    margin-left: 22%;
+    margin-left: 10em;
     max-width: 500px;
 }
 
@@ -98,7 +98,8 @@ li.dropdown {
     overflow: auto;
   }
 .navbar-brand {
-    margin: 0;
+    margin-left: 0;
+    max-width: 447;
 }
   
 #slideshow {
@@ -179,4 +180,8 @@ body {
     background-attachment: fixed;
     
 }
- 
+/* @media only screen and (min-width: 1360px) {
+    #.navbar {
+        padding: 0;
+        width: 100%;z
+    } */
