@@ -79,7 +79,10 @@ li.dropdown {
     top: 35%;
     right: 3%;
 }
-
+/* .cardhead{
+    background-color: rgb(63, 63, 63);
+    color: white;
+} */
 .carousel {
     overflow: auto;
   }
@@ -92,9 +95,36 @@ li.dropdown {
     margin-bottom: 0;
     font-size: 20px;
 }
-/* #help {
-    float: left;
-} */
+.hh6{
+    font-size: 22px;
+    color: black;
+    font-weight: 350;
+    text-decoration: underline;
+}
+#topleft{
+    background-image: url("../images/topleft2.jpg");
+    object-fit: cover;
+    background-size: 538px;
+    font-size: 18px;
+    color: black;
+    font-weight: 450;
+}
+#botleft{
+    background-image: url("../images/botleft2.jpg");
+    object-fit: cover;
+    background-size: 538px;
+    font-size: 18px;
+    color: black;
+    font-weight: 450;
+}
+#right{
+    background-image: url("../images/right2.jpg");
+    object-fit: cover;
+    background-size: 538px;
+    font-size: 18px;
+    color: black;
+    font-weight: 450;
+}
 #brett{
     display: block;
     float: left;
