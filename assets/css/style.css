@@ -42,13 +42,11 @@ li a, .navlinks {
     text-decoration: none;
     font-size: 135%;
     margin: 2%;
-    margin-right: 15%;
+    /* margin-right: 15%; */
     font-weight: 500;
     font-family: Rokkitt;
 }
-li a:hover, .dropdown:hover .dropbtn {
-    background-color: lightslategray;
-}
+
 
 
 li.dropdown {
@@ -78,7 +76,7 @@ li.dropdown {
     display: block;
 }
 .navbar-expand-lg .navbar-collapse {
-    margin-left: 20%;
+    margin-left: 22%;
     max-width: 500px;
 }
 
@@ -99,6 +97,9 @@ li.dropdown {
 .carousel {
     overflow: auto;
   }
+.navbar-brand {
+    margin: 0;
+}
   
 #slideshow {
     align-content: center;
