@@ -76,7 +76,7 @@ li.dropdown {
     display: block;
 }
 .navbar-expand-lg .navbar-collapse {
-    margin-left: 10em;
+    margin-left:0 auto 10em;
     max-width: 500px;
 }
 
