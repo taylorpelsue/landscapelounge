@@ -9,6 +9,9 @@
     width: 100%;
     padding: 0;
     height: 60px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
 }
 .mower {
     margin-bottom: 5%;
@@ -102,7 +105,7 @@ li.dropdown {
     text-decoration: underline;
 }
 #topleft{
-    background-image: url("../images/topleft2.jpg");
+    background-image: url("../images/topleft3.jpg");
     object-fit: cover;
     background-size: 538px;
     font-size: 18px;
@@ -110,7 +113,7 @@ li.dropdown {
     font-weight: 450;
 }
 #botleft{
-    background-image: url("../images/botleft2.jpg");
+    background-image: url("../images/botleft3.jpg");
     object-fit: cover;
     background-size: 538px;
     font-size: 18px;
@@ -118,7 +121,7 @@ li.dropdown {
     font-weight: 450;
 }
 #right{
-    background-image: url("../images/right2.jpg");
+    background-image: url("../images/right3.jpg");
     object-fit: cover;
     background-size: 538px;
     font-size: 18px;
@@ -142,7 +145,7 @@ li.dropdown {
     font-family: helvetica;
     font-size: 12px;
     text-align: center;
-    position: sticky;
+    position: static;
 }
 body {
     margin-bottom: 5%;
@@ -151,5 +154,6 @@ body {
 	height: 90vh;
     color: #fff;
     background-image: url("../images/background.png");
+    padding-top: 70px;
 }
  
