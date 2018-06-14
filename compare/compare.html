@@ -5,10 +5,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Landscape Lounge</title>
+
+    <!-- Linking jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Linking Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <!-- Linking Bootstrap Javascript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- Linking CSS Stylesheet -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <!-- Tab Icon -->
+    <link rel="icon" href="../assets/images/icon.png">
 </head>
 
 <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html" target="_self">
+            <img src="../assets/images/logo.png" id="logo" alt="Link to Homepage" width="125px">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+
+                <li id="home">
+                    <a class="navlinks" href="../index.html">Home</a>
+                </li>
+                <li id="about">
+                    <a class="navlinks" href="../about.html">About</a>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="navlinks">Articles</a>
+                    <div class="dropdown-content">
+                        <a href="../compare/compare.html">Compare Brands</a>
+                        <a href="../choices/choices.html">Our Choices</a>
+                        <a href="../testimonials/test.html">Testimionials</a>
+                    </div>
+                </li>
+                <li id="blog">
+                    <a class="navlinks" href="../about.html">Blog</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <h1>Landscape Lounge</h1>
     <p>Page coming soon!</p>
 </body>
