@@ -106,6 +106,12 @@ li.dropdown {
     align-content: center;
     
 }
+.jumbotron {
+    background-image: url("../images/houselawnwtext.jpg");
+    object-fit: cover;
+    height: 340px;
+    text-align: center;
+}
 
 #h5 {
     font-family: 'Permanent Marker', cursive;
@@ -120,6 +126,7 @@ li.dropdown {
     text-decoration: underline;
     font-family: Rokkitt;
 }
+
 #topleft{
     background-image: url("../images/topleft3.jpg");
     object-fit: cover;
@@ -147,6 +154,24 @@ li.dropdown {
     font-weight: 475;
     font-family: Rokkitt;
 
+}
+#pushmowers {
+    background-color: rgb(129, 128, 128);
+    margin-left: 5%;
+}
+#handhelds {
+    background-color: rgb(129, 128, 128);
+
+}
+#ztrmowers{
+    background-color: rgb(129, 128, 128);
+}
+.choices {
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    width: 325px;
 }
 #brett{
     display: block;
