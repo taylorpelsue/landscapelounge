@@ -156,15 +156,15 @@ li.dropdown {
 
 }
 #pushmowers {
-    background-color: rgb(129, 128, 128);
-    margin-left: 5%;
+    background-image: url("../images/brushed.png");
 }
 #handhelds {
-    background-color: rgb(129, 128, 128);
-
+    margin-left: 10%;
+    background-image: url("../images/brushed.png");
 }
 #ztrmowers{
-    background-color: rgb(129, 128, 128);
+    margin-left: 16%;
+    background-image: url("../images/brushed.png");
 }
 .choices {
     font-family: 'Permanent Marker', cursive;
@@ -193,6 +193,10 @@ li.dropdown {
     position: static;
     font-family: Rokkitt;
     text-shadow: 1px 0 black;
+}
+.onclick{
+    color: black;
+    text-decoration: none;
 }
 body {
     margin-bottom: 5%;
